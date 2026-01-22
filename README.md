@@ -36,19 +36,23 @@ The pipeline is designed using the Bronze–Silver–Gold pattern:
 ---
 
 ## Project Structure
+
+```text
 banking-transactions-spark-databricks/
 │
 ├── notebook/
-│ └── banking_transactions_spark_pipeline.ipynb
+│   └── banking_transactions_spark_pipeline.ipynb
 │
 ├── data/
-│ └── raw/
-│ └── transactions.csv
+│   └── raw/
+│       └── transactions.csv
 │
 ├── architecture/
-│ └── bronze_silver_gold_architecture.png
+│   └── bronze_silver_gold_architecture.png
 │
 └── requirements.txt
+```
+
 
 ---
 
